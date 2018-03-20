@@ -24,7 +24,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := omni_geminipda
-PRODUCT_DEVICE := gemini
+PRODUCT_DEVICE := geminipda
 PRODUCT_BRAND := Planet
 PRODUCT_MODEL := Gemini PDA
 PRODUCT_MANUFACTURER := Planet
