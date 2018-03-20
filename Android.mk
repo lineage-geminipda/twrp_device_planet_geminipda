@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(filter gemini,$(TARGET_DEVICE)),)
+ifneq ($(filter geminipda,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 

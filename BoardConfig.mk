@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/planet/gemini
+LOCAL_PATH := device/planet/geminipda
 
 # Architecture
 TARGET_ARCH := arm64
@@ -47,11 +47,11 @@ BOARD_KERNEL_CMDLINE += bootopt=64S3,32N2,64N2
 BOARD_KERNEL_BASE := 0x40078000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS  := --kernel_offset 0x00008000 --ramdisk_offset 0x04f88000 --tags_offset 0x03f88000 --board 1517312270
-TARGET_PREBUILT_KERNEL := device/planet/gemini/prebuilt/kernel
+TARGET_PREBUILT_KERNEL := device/planet/geminipda/prebuilt/kernel
 TARGET_KMODULES := true
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/planet/gemini/recovery/root/twrp.fstab
+TARGET_RECOVERY_FSTAB := device/planet/geminipda/recovery/root/twrp.fstab
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216

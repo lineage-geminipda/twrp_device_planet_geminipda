@@ -23,14 +23,14 @@ $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_gemini
+PRODUCT_NAME := omni_geminipda
 PRODUCT_DEVICE := gemini
 PRODUCT_BRAND := Planet
 PRODUCT_MODEL := Gemini PDA
 PRODUCT_MANUFACTURER := Planet
 
 # Release name
-PRODUCT_RELEASE_NAME := gemini
+PRODUCT_RELEASE_NAME := geminipda
 
 # Time Zone data for recovery
 PRODUCT_COPY_FILES += \
