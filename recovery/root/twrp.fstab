@@ -26,6 +26,7 @@
 /lk		emmc	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/lk		flags=display="uboot";backup=1;flashimg=1
 /lk2		emmc	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/lk2		flags=backup=1;subpartitionof=/lk
 /boot		emmc	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/boot		flags=display="boot";backup=1
+/linux_boot		emmc	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/linux_boot		flags=display="boot";backup=1;flashimg=1
 /logo		emmc	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/logo		flags=display="logo";backup=1;flashimg=1
 /tee1		emmc	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/tee1		flags=display="tee";backup=1;flashimg=1
 /tee2		emmc	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/tee2		flags=backup=1;subpartitionof=/tee1
