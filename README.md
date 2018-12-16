@@ -12,6 +12,10 @@ Add to `.repo/local_manifests/geminipda.xml`:
 
 Then run `repo sync` to check it out.
 
+Apply the following gerrit changes
+https://gerrit.omnirom.org/#/c/android_bootable_recovery/+/32862/
+https://gerrit.omnirom.org/#/c/android_bootable_recovery/+/27694/
+
 To build:
 
 ```sh
