@@ -6,6 +6,7 @@ Add to `.repo/local_manifests/geminipda.xml`:
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="TeamWin/android_device_planet_geminipda" path="device/planet/geminipda" remote="github" revision="android-7.1" />
+  <project name="lineage-geminipda/android_kernel_planet_mt6797" path="kernel/planet/mt6797" remote="github" revision="cm-14.1" />
 </manifest>
 ```
 
